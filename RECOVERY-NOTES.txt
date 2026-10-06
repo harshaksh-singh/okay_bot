@@ -1,0 +1,13 @@
+Rebuilt on 2026-10-07 from Claude Code session records of ~/Desktop/okay_bot.
+177 files rebuilt by replaying 186 writes and 311 edits.
+Files whose last edits could not be replayed (may be slightly out of date):
+  job-agent/backend/app/__init__.py (1 edit(s))
+  job-agent/backend/app/config/__init__.py (1 edit(s))
+  job-agent/backend/app/discovery/registry.py (1 edit(s))
+  job-agent/backend/app/agents/compliance_agent.py (1 edit(s))
+  job-agent/backend/app/agents/orchestrator.py (3 edit(s))
+  job-agent/backend/app/agents/communication_agent.py (1 edit(s))
+  job-agent/backend/app/agents/followup_agent.py (1 edit(s))
+  job-agent/.env (13 edit(s))
+  job-agent/backend/tests/test_phase3.py (1 edit(s))
+NOT recovered: .env (secrets), databases, browser profiles, resumes/documents, virtualenv, git history, anything created by shell commands.

@@ -1,0 +1,101 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.secret
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Ruff
+.ruff_cache/
+
+# Databases (global — covers tmp, backups, misplaced dumps anywhere)
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Data / database
+data/*.db
+data/*.db-journal
+data/cache/
+data/logs/
+data/resumes_generated/
+data/email_drafts/
+data/submission_evidence/
+data/backups/
+data/reports/
+data/screenshots/
+
+# Browser profiles & sessions (contain cookies, localStorage, session tokens)
+browser/
+browser/profiles/
+browser/profiles/*/
+browser/sessions/
+cookies/
+playwright/
+secrets/
+downloads/
+
+# Keys & certificates
+*.har
+*.pem
+*.key
+*.p12
+
+# Resumes (user content)
+resumes/*.pdf
+resumes/*.docx
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+
+# OS
+Thumbs.db
